@@ -11,7 +11,7 @@ int main()
     flag = 0;
   else
   {
-    for (int i = 2; i < sqrt(number); i++)
+    for (int i = 2; i <= sqrt(number); i++)
     {
       if (!(number % i))
       {

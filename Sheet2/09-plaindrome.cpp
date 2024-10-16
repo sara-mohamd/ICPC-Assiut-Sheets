@@ -20,7 +20,7 @@ int main()
       rev_num += to_string(temp % 10);
       temp /= 10;
     }
-
+    // stoi stands for "string to integer"
     if (stoi(rev_num) == num)
       cout << rev_num << endl
            << "YES";
