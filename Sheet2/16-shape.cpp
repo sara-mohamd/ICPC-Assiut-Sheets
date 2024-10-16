@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
-int main() {
-    int x ;
+int main()
+{
+    int x;
     cin >> x;
-    for (int i = x; i != 0; i--) {
-        int temp = i;
-        while(temp) {
+    for (int i = x; i != 0; i--)
+    {
+        for (int j = i; !j; j--)
             cout << "*";
-            temp--;
-        }
         cout << endl;
     }
     return 0;
