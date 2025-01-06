@@ -1,4 +1,4 @@
-# ICPC Assiut Materials Solutions
+# ICPC Assiut Solutions
 
 This repository contains my solutions to the problem sheets for Newcomers, Juniors 1, and Juniors 2 in the ICPC Assiut training program.
 
