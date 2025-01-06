@@ -14,9 +14,10 @@ int main()
   mi = num2;
   mx = num1;
  }
- all = (mi + mx) * (mx - mi + 1) / 2;
-
- odd = pow(((mx + (mx % 2)) / 2), 2) - pow(((mi - (mi % 2)) / 2), 2);
+  all = (mi + mx) * (mx - mi + 1) / 2;
+  // equation of calc odd, even numbers between Two numbers
+  // mx > mi (must)
+  odd = pow(((mx + (mx % 2)) / 2), 2) - pow(((mi - (mi % 2)) / 2), 2);
   even = (pow(((mx - (mx % 2)) / 2), 2) + ((mx - (mx % 2)) / 2)) - (pow((((mi + (mi % 2)) - 2) / 2), 2) + (((mi + (mi % 2)) - 2) / 2));
   cout << all << endl
       << even << endl

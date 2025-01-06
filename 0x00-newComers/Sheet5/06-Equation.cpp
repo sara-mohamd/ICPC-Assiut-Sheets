@@ -8,6 +8,7 @@ void solve(int x, int n)
     sum += pow(x, i);
   cout << sum;
 }
+
 int main()
 {
   int n1, n2;
