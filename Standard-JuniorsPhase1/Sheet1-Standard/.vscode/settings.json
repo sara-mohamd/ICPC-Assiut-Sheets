@@ -1,9 +1,10 @@
 {
   "files.associations": {
+    "*.sqlbook": "sql",
     "*.ndjson": "jsonl",
     "*.dbclient-js": "javascript",
     "*.md": "juliamarkdown",
     "iostream": "cpp",
-    "string": "cpp"
+    "12-diverseteam": "cpp"
   }
 }
