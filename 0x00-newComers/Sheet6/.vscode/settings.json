@@ -1,9 +1,0 @@
-{
-  "files.associations": {
-    "*.ndjson": "jsonl",
-    "*.dbclient-js": "javascript",
-    "*.md": "juliamarkdown",
-    "iostream": "cpp",
-    "string": "cpp"
-  }
-}
