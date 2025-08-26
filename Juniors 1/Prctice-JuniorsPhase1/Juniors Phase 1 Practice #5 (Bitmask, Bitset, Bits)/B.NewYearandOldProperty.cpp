@@ -14,7 +14,7 @@ signed main()
     x += (1LL << bit);
     for (int i = 0; i < bit; i++)
     {
-      int num = x - (1LL << i);
+      int num = x - (1LL << i); // remove i-th bit
       if (num >= r1 && num <= r2)
         answer++;
     }
