@@ -11,7 +11,7 @@ int main()
   if (a[0] > b[0])
   {
     if (n == 2)
-      cout << (a[1] >= b[1]) ? "YES\n1 2\n" : "NO\n";
+      cout << ((a[1] >= b[1]) ? "YES\n1 2\n" : "NO\n");
     else
       cout << "YES\n2 3\n";
     return 0;
